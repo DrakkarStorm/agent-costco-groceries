@@ -1,0 +1,15 @@
+# Browser session (cookies, logged-in account): never commit
+.browser-profile/
+# Playwright page captures (may contain order data)
+.playwright-mcp/
+
+# Personal data (see the *.example.md files)
+config.local.md
+preferences.md
+list.md
+history/
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+.DS_Store
