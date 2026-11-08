@@ -44,6 +44,12 @@ In Claude Code:
 
 Without a list, the skill reads the "Items" section of `list.md`.
 
+## Wishlist
+
+Ideas for future versions:
+
+- **Order from a recipe**: give the skill a recipe (text or link) and the number of servings, and it works out the ingredients you need, skips what you usually keep at home, and adds the rest to the cart.
+
 ## Personal data
 
 `config.local.md`, `preferences.md`, `list.md`, `history/`, the browser profile and the Playwright captures are ignored by git. Do not remove them from `.gitignore`: the profile holds your Costco session.
